@@ -8,13 +8,13 @@ namespace AwesomeGridScaffolder.UI
     /// <summary>
     /// View model for code types so that it can be displayed on the UI.
     /// </summary>
-    public class CustomViewModel
+    public class EntityViewModel
     {
         /// <summary>
         /// Constructor
         /// </summary>
         /// <param name="context">The code generation context</param>
-        public CustomViewModel(CodeGenerationContext context)
+        public EntityViewModel(CodeGenerationContext context)
         {
             Context = context;
         }

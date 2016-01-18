@@ -11,22 +11,9 @@ using System.Windows.Media.Imaging;
 namespace AwesomeGridScaffolder
 {
     [Export(typeof(CodeGeneratorFactory))]
-    public class CustomCodeGeneratorFactory : CodeGeneratorFactory
+    public class AwesomeGridScaffolderFactory : CodeGeneratorFactory
     {
-        /// <summary>
-        ///  Information about the code generator goes here.
-        /// </summary>
-        private static CodeGeneratorInformation _info = new CodeGeneratorInformation(
-            displayName: "Awesome Grid Scaffolder",
-            description: "Creates custom Grids based on EF and MVCAwesome Project.",
-            author: "Hatem Hamad",
-            version: new Version(1, 0, 0, 0),
-            id: typeof(CustomCodeGenerator).Name,
-            icon: ToImageSource(Resources._TemplateIconSample),
-            gestures: new[] { "Controller", "View", "Area" },
-            categories: new[] { Categories.Common, Categories.MvcController, Categories.Other });
-
-        public CustomCodeGeneratorFactory()
+        public AwesomeGridScaffolderFactory()
             : base(_info)
         {
         }
@@ -37,7 +24,7 @@ namespace AwesomeGridScaffolder
         /// <returns>Instance of CodeGenerator.</returns>
         public override ICodeGenerator CreateInstance(CodeGenerationContext context)
         {
-            return new CustomCodeGenerator(context, Information);
+            return new AwesomeGridScaffolder(context, Information);
         }
 
         /// <summary>
@@ -54,6 +41,23 @@ namespace AwesomeGridScaffolder
 
             return true;
         }
+
+
+        /// <summary>
+        ///  Information about the code generator goes here.
+        /// </summary>
+        private static CodeGeneratorInformation _info = new CodeGeneratorInformation(
+            displayName: "Awesome Grid Scaffolder",
+            description: "Creates custom Grids based on EF and MVCAwesome Project.",
+            author: "Hatem Hamad",
+            version: new Version(1, 0, 0, 0),
+            id: typeof(AwesomeGridScaffolder).Name,
+            icon: ToImageSource(Resources._TemplateIconSample),
+            gestures: new[] { "Controller", "View", "Area" },
+            categories: new[] { Categories.Common, Categories.MvcController, Categories.MvcView, Categories.Other
+            });
+
+
         /// <summary>
         /// Helper method to convert Icon to Imagesource.
         /// </summary>

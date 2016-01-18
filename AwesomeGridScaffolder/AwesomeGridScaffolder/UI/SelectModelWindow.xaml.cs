@@ -20,7 +20,7 @@ namespace AwesomeGridScaffolder.UI
     /// </summary>
     public partial class SelectModelWindow : Window
     {
-        public SelectModelWindow(CustomViewModel viewModel)
+        public SelectModelWindow(EntityViewModel viewModel)
         {
             InitializeComponent();
 
