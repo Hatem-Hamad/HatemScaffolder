@@ -1,8 +1,8 @@
-﻿using Microsoft.AspNet.Scaffolding.VSExtension.UI;
+﻿using AwesomeGridScaffolder.VSExtension.UI;
 using System;
 using System.Windows;
 
-namespace Microsoft.AspNet.Scaffolding.WebForms.UI
+namespace AwesomeGridScaffolder.WebForms.UI
 {
     /// <summary>
     /// Interaction logic for NewDataContextDialog.xaml

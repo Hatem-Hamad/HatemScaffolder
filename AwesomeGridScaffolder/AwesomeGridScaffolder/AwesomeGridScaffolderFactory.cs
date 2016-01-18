@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNet.Scaffolding;
+﻿using AwesomeGridScaffolder;
+using AwesomeGridScaffolder.WebForms;
+using Microsoft.AspNet.Scaffolding;
 using System;
 using System.ComponentModel.Composition;
 using System.Drawing;
@@ -24,7 +26,7 @@ namespace AwesomeGridScaffolder
         /// <returns>Instance of CodeGenerator.</returns>
         public override ICodeGenerator CreateInstance(CodeGenerationContext context)
         {
-            return new AwesomeGridScaffolder(context, Information);
+            return new AwesomeGridScaffolderClass(context, Information);
         }
 
         /// <summary>
@@ -51,8 +53,8 @@ namespace AwesomeGridScaffolder
             description: "Creates custom Grids based on EF and MVCAwesome Project.",
             author: "Hatem Hamad",
             version: new Version(1, 0, 0, 0),
-            id: typeof(AwesomeGridScaffolder).Name,
-            icon: ToImageSource(Resources._TemplateIconSample),
+            id: typeof(AwesomeGridScaffolderClass).Name,
+            icon:null, //TODO :ToImageSource(Resources._TemplateIconSample),
             gestures: new[] { "Controller", "View", "Area" },
             categories: new[] { Categories.Common, Categories.MvcController, Categories.MvcView, Categories.Other
             });

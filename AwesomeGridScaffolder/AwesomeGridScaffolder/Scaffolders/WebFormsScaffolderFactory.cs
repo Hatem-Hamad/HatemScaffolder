@@ -1,5 +1,5 @@
 ﻿using EnvDTE;
-using Microsoft.AspNet.Scaffolding;
+using AwesomeGridScaffolder;
 using Microsoft.AspNet.Scaffolding.NuGet;
 using Microsoft.AspNet.Scaffolding.EntityFramework.Util;
 using System;
@@ -12,9 +12,10 @@ using System.Globalization;
 using System.IO;
 using System.Linq;
 using System.Runtime.Versioning;
-using Microsoft.AspNet.Scaffolding.WebForms.UI;
+using AwesomeGridScaffolder.WebForms.UI;
+using Microsoft.AspNet.Scaffolding;
 
-namespace Microsoft.AspNet.Scaffolding.WebForms.Scaffolders
+namespace AwesomeGridScaffolder.WebForms.Scaffolders
 {    
 
     // This is where everything with the scaffolder is kicked off. The factory

@@ -12,15 +12,15 @@
 <#@ import namespace="System.Data.Objects.DataClasses" #>
 <#@ import namespace="System.Linq" #>
 <#@ import namespace="System.Reflection" #>
-<#@ import namespace="Microsoft.AspNet.Scaffolding.Core.Metadata" #>
+<#@ import namespace="AwesomeGridScaffolder.Core.Metadata" #>
 <#@ parameter type="System.Boolean" name="IsContentPage" #>
 <#@ parameter type="System.String" name="MasterPageFile" #>
 <#@ parameter type="System.String" name="PrimarySectionName" #>
 <#@ parameter type="System.String" name="ModelName" #>
 <#@ parameter type="System.String" name="FullModelName" #>
 <#@ parameter type="System.String" name="PluralizedModelName" #>
-<#@ parameter type="Microsoft.AspNet.Scaffolding.Core.Metadata.ModelMetadata" name="ModelMetadata" #>
-<#@ parameter type="System.Collections.Generic.Dictionary<string, Microsoft.AspNet.Scaffolding.Core.Metadata.RelatedModelMetadata>" name="RelatedModels" #>
+<#@ parameter type="AwesomeGridScaffolder.Core.Metadata.ModelMetadata" name="ModelMetadata" #>
+<#@ parameter type="System.Collections.Generic.Dictionary<string, AwesomeGridScaffolder.Core.Metadata.RelatedModelMetadata>" name="RelatedModels" #>
 <#@ parameter type="System.String" name="DefaultNamespace" #>
 <#@ parameter type="System.String" name="FolderNamespace" #>
 <#@ parameter type="System.String" name="ModelNamespace" #>

@@ -1,4 +1,4 @@
-﻿namespace Microsoft.AspNet.Scaffolding
+﻿namespace AwesomeGridScaffolder
 {
     internal static class VsConstants
     {

@@ -6,17 +6,17 @@ using System.Windows.Input;
 using EnvDTE;
 using Microsoft.AspNet.Scaffolding.EntityFramework;
 using Microsoft.AspNet.Scaffolding.NuGet;
-using Microsoft.AspNet.Scaffolding.WebForms.UI;
+using AwesomeGridScaffolder.WebForms.UI;
 using Microsoft.AspNet.Scaffolding.Core.Metadata;
-using Microsoft.AspNet.Scaffolding.WebForms.Utils;
+using AwesomeGridScaffolder.Utils;
 using System.IO;
 using EnvDTE80;
 using System.ComponentModel.DataAnnotations;
 using System.Reflection;
 using System.ComponentModel;
+using Microsoft.AspNet.Scaffolding;
 
-
-namespace Microsoft.AspNet.Scaffolding.WebForms.Scaffolders
+namespace AwesomeGridScaffolder.WebForms.Scaffolders
 {
     // This class performs all of the work of scaffolding. The methods are executed in the
     // following order:

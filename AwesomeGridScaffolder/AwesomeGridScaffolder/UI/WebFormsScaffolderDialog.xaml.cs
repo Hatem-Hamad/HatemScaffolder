@@ -1,7 +1,7 @@
 ﻿using System;
-using Microsoft.AspNet.Scaffolding.VSExtension.UI;
+using AwesomeGridScaffolder.VSExtension.UI;
 
-namespace Microsoft.AspNet.Scaffolding.WebForms.UI
+namespace AwesomeGridScaffolder.WebForms.UI
 {
     /// <summary>
     /// Interaction logic for WebFormsScaffolderDialog.xaml

@@ -6,7 +6,7 @@
     <Description xml:space="preserve">Generates pages for inserting, editing, deleting and listing Grids from an Entity Framework data context and model class using MVCAwesomeProject Extensions.</Description>
     <MoreInfo>https://github.com/Hatem-Hamad/HatemScaffolder</MoreInfo>
     <License>LICENSE.txt</License>
-    <Tags>Scaffolding, Awesome, Scaffolder</Tags>
+    <Tags>Scaffolding, Awesome, MVC, Controller</Tags>
   </Metadata>
   <Installation>
     <InstallationTarget Id="Microsoft.VisualStudio.Pro" Version="[12.2]" />

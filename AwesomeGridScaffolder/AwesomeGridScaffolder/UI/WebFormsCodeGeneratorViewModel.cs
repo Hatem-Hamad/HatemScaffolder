@@ -7,10 +7,11 @@ using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Windows.Input;
 using EnvDTE;
-using Microsoft.AspNet.Scaffolding.EntityFramework;
 using EnvDTE80;
+using Microsoft.AspNet.Scaffolding;
+using Microsoft.AspNet.Scaffolding.EntityFramework;
 
-namespace Microsoft.AspNet.Scaffolding.WebForms.UI
+namespace AwesomeGridScaffolder.WebForms.UI
 {
     internal class WebFormsCodeGeneratorViewModel : ViewModel<WebFormsCodeGeneratorViewModel>
     {

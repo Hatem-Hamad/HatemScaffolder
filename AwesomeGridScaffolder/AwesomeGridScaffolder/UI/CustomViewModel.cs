@@ -1,5 +1,7 @@
-﻿using Microsoft.AspNet.Scaffolding;
+﻿using AwesomeGridScaffolder;
 using Microsoft.AspNet.Scaffolding.EntityFramework;
+using AwesomeGridScaffolder.WebForms.UI;
+using Microsoft.AspNet.Scaffolding;
 using System.Collections.Generic;
 using System.Linq;
 

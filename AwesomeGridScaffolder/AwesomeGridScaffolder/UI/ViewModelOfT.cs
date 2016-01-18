@@ -2,7 +2,7 @@
 using System.Diagnostics;
 using System.Linq.Expressions;
 
-namespace Microsoft.AspNet.Scaffolding.WebForms.UI
+namespace AwesomeGridScaffolder.WebForms.UI
 {
     internal abstract class ViewModel<T> : ViewModel where T : ViewModel
     {

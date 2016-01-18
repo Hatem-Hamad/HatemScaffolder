@@ -2,7 +2,7 @@
 using System.Windows.Data;
 using System.Windows.Input;
 
-namespace Microsoft.AspNet.Scaffolding.WebForms.UI
+namespace AwesomeGridScaffolder.WebForms.UI
 {
     internal class BindBehavior
     {

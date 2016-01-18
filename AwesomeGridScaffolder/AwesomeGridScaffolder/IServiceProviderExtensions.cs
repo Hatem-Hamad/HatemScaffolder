@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Microsoft.AspNet.Scaffolding
+namespace AwesomeGridScaffolder
 {
     internal static class IServiceProviderExtensions
     {
